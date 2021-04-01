@@ -1,0 +1,34 @@
+h1.site-name {
+    color:orange;
+    margin-bottom: 25px;
+}
+
+.jumbotron-extend {
+    // position: relative;
+    height: 80vh;
+    min-height: 300px;
+    background: url(/assets/main.jpg) no-repeat center center;
+    background-size: cover;
+    
+}
+
+.jumbotron-container {
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+}
+
+.site-name {
+    margin-bottom: 40px;
+    font-family: 'Playfair Display', serif;
+}
+.btn-black {
+    border-radius: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: 'Avenir', serif;
+}
+.btn-black:hover {
+     background-color: #fff;
+     color: #000;
+}
